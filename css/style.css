@@ -1,0 +1,124 @@
+h1 {
+    text-align: center;
+    color:white;
+}
+
+#cart {
+    display: flex;
+    justify-content: space-around;
+    border-top: 5px solid black;
+    border-bottom: 5px solid black;
+}
+
+.column {
+    width: 18%;
+    padding: 25px 0px;
+}
+
+#images img {
+    display: block;
+    height: 100px;
+    width: auto;
+    margin: 20px;
+}
+
+#songs p {
+    font-size: 18px;
+    height: 100px;
+    font-weight: bold;
+    margin: 20px;
+}
+
+#artists p {
+    font-size: 18px;
+    height: 100px;
+    margin: 20px;
+}
+
+#lengths p {
+    font-size: 16px;
+    height: 100px;
+    margin: 20px;
+    text-align: right;
+}
+
+#links a {
+    display: block;
+    font-size: 18px;
+    height: 100px;
+    font-weight: bold;
+    margin: 20px;
+}
+
+#form {
+    width: 75%;
+    margin: 0 auto 20px auto;
+    font-size: 18px;
+}
+
+.coverSong {
+    width:200px;
+    height:200px;
+}
+
+input {
+    padding: 5px 10px;
+    font-size: 14px;
+    background-color:white;
+    color:black;
+}
+
+button {
+    font-size: 14px;
+    padding: 5px 10px;
+    background-color:white;
+}
+
+head{
+    background-color:green;
+}
+
+#songs1{
+    border-style: solid;
+ border-radius: 20px;
+    border:solid #d4af37;
+    padding:20px;
+    transition: transform 1s;
+}
+
+
+#songs2{
+    border-style: solid;
+ border-radius: 20px;
+    border:solid #d4af37;
+    padding:20px;
+}
+
+#songs3{
+    border-style: solid;
+ border-radius: 20px;
+    border:solid #d4af37;
+    padding:20px;
+}
+
+body{
+    background-color:black;
+}
+
+#add{
+    color:white;
+}
+
+#backgroundimg{
+ background:url("https://78.media.tumblr.com/8e06279879135cab81cd9f700754ad3f/tumblr_oc4rnyscI91rcfkrho1_r1_500.gif");
+background-size:1400px 800px;
+
+}
+
+body{
+    color:#d4af37;
+}
+
+#add{
+    color:#d4af37;
+}
