@@ -1,4 +1,14 @@
 /* global $ */
+var newGuest=[];
+$("#newaccount").click(function(){
+    $("#login_box").hide();
+    $("#new-account").show();
+    
+
+var account=$(".guestName").val();
+newGuest.push(account);
+$(".guestName").append("<li>"+ newGuest +"</li>");
+});
 
 // BELOW Update the songs array with four of your favorites songs.
 var songs = ["Is There More", "Emotionless", "Mob Ties", "Blue Tint", "Don't Matter to Me", "Final Fantasy"];
@@ -49,6 +59,8 @@ function displaySongInfo() {
 }
 
 
+var search= $("#search").val();
+
 
 // BELOW Use forEach Loop to display the data from each of your array's in the correct div
 
@@ -87,3 +99,7 @@ displaySongInfo();
 $("#start").click(function(){
     
 });
+
+
+
+

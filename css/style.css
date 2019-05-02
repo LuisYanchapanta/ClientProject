@@ -117,8 +117,22 @@ background-size:1400px 800px;
 
 body{
     color:#d4af37;
+    background-image: url("https://cache.desktopnexus.com/thumbseg/209/209103-bigthumbnail.jpg");
 }
 
 #add{
     color:#d4af37;
+}
+#login_box{
+  border: 5px solid #100;
+  opacity: 0.9;
+  padding: 10px;
+  padding-left: 50px;
+  font-family: monospace;
+}
+.create{
+    
+}
+.login{
+    
 }
