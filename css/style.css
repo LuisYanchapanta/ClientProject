@@ -3,6 +3,30 @@ h1 {
     color:white;
 }
 
+h2{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+#research{
+    display: flex;
+    justify-content: center;
+    height: 40px;
+    width: auto;
+    margin-bottom: 140px;
+    margin-top: 30px;
+}
+
+#search-button{
+    display: flex;
+    justify-content: center;
+    margin: 6px;
+    height:35px;
+    border-radius: 20%;
+    background-color: navy;
+    color:lime;
+}
+
 #cart {
     display: flex;
     justify-content: space-around;
@@ -72,6 +96,7 @@ button {
     font-size: 14px;
     padding: 5px 10px;
     background-color:white;
+    color:black;
 }
 
 head{
@@ -129,10 +154,16 @@ body{
   padding: 10px;
   padding-left: 50px;
   font-family: monospace;
+  color:magenta;
+  font-size: 20px;
 }
-.create{
-    
+
+#new-account{
+    margin:20px;
+    color:lightblue;
+    font-size:20px;
 }
-.login{
+.details{
+    font-size:20px;
     
 }
